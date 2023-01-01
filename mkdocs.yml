@@ -4,11 +4,30 @@ repo_url: https://github.com/YWwXxx/JMURobot-md
 nav:
   - 首页: index.md
 theme:
+  # 主题相关配置
   name: material
+  language: "zh"
+  logo: "img/favicon.ico"
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: 切换黑暗模式
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 切换明亮模式
+
+  features:
+    - navigation.top
+    - navigation.expand
 plugins:
-  - search:
-      separator: '[\s\u200b\-]'
-site_favicon: favicon.ico
+  search:
+    # 中文搜索
+    jieba_dict: dict.txt
+
 site_author: JMURobot
 site_description: 集美大学机器人创新实验室
-copyright: 集美大学机器人创新实验室
+copyright: Copyright &copy; 集美大学机器人创新实验室
