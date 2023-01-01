@@ -1,0 +1,14 @@
+site_name: 集美大学机器人创新实验室
+site_url: https://www.jmurobot.com/
+repo_url: https://github.com/YWwXxx/JMURobot-md
+nav:
+  - 首页: index.md
+theme:
+  name: material
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
+site_favicon: favicon.ico
+site_author: JMURobot
+site_description: 集美大学机器人创新实验室
+copyright: 集美大学机器人创新实验室
