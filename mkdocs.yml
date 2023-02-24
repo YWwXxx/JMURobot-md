@@ -3,6 +3,7 @@ site_url: https://www.jmurobot.com/
 repo_url: https://github.com/YWwXxx/JMURobot-md
 nav:
   - 首页: index.md
+  - 博客上传指南: guide.md
 theme:
   # 主题相关配置
   name: material
